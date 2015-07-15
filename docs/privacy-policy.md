@@ -1,6 +1,8 @@
 Privacy Policy
 ==============
 
+**DRAFT**
+
 Your personal privacy is an important factor that the Sempervirens project and Numfocus 
 (our legal entity) considers in the development of each of our products and services. 
 We are committed to gathering NO personal information through sempervirens. We are 
