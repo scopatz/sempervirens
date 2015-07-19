@@ -5,9 +5,10 @@ Privacy Policy
 
 Your personal privacy is an important factor that the Sempervirens project and Numfocus 
 (our legal entity) considers in the development of each of our products and services. 
-We are committed to NOT storing ANY personal information through Sempervirens. We are 
-committed to being transparent and open. This Privacy Policy explains generically how 
-we receive information from you, and what we do with that information once we have it.
+We are committed to NOT storing ANY personal information through Sempervirens other 
+than IP addresses. We are committed to being transparent and open. This Privacy Policy 
+explains generically how we receive information from you, and what we do with that 
+information once we have it.
 
 What do we mean by "personal information?"
 ------------------------------------------
@@ -17,17 +18,23 @@ name, email address, twitter account names, or other user names. Any information
 falls outside of this is "non-personal information."
 
 Combining non-personal information with personal information we consider to be 
-"personal information."  Such combinations will not be collected. Removing all 
+"personal information." Such combinations will not be publically shared. Removing all 
 personal information creates a data set that is deemed "non-personal information" 
 and may be collected.
 
 In some jurisdictions around the world, IP addresses and other similar pieces of
-are considered personal information, though they are not "uniquely identifying personal 
-information." In an effort apply as broadly as possible, Sempervirens considers IP 
-addresses and other "non-uniquely indetifying personal informantion" as personal 
-information. Non-uniquely identifying personal information will only be used to 
-connect and transfer information between client and server computers, as per standard
-internet protocols.
+information are considered personal information, though they are not "uniquely 
+identifying personal information." In an effort apply as broadly as possible, 
+Sempervirens considers IP addresses and other "non-uniquely identifying personal 
+information" to be personal information. 
+
+IP addresses are the only form of personal information that Sempervirens will collect
+about you. IP addresses will be stored as part of a standard web log and non-public 
+dataset. IP addresses will never be shared or displayed publicly.
+
+Aggregating and anonymizing IP addresses creates a data set that is deemed 
+non-personal information.
+
 
 How do we learn information about you?
 ---------------------------------------
@@ -49,6 +56,15 @@ permission. Generally, we use your information to help us provide and improve ou
 products and services to you and for you. This includes aggregations of the information 
 to display data such as global usage statistics.
 
+Personal information that you have provided (IP addresses) are aggregated and anonymized
+by Sempervirens privately. This is in order to answer questions such as, but not 
+limited to, the following:
+
+* How many users do we have at .edu domains?
+* How many users does a project have at a given institution?
+* Is a project reporting many (100,000 or more) distinct users all from a single 
+  IP address?
+
 What are usage statistics?
 --------------------------
 
@@ -59,11 +75,14 @@ hardware configuration. All telemetry data includes a universally unique identif
 (UUID) that is randomly generated on your computer (the client). The UUID is created
 according to the UUID version 4 specification, see 
 [RFC 4122 section 4.4](https://tools.ietf.org/html/rfc4122#section-4.4). The UUID allows
-Sempervirens to distingush between users, while not being personally identifiable to
+Sempervirens to distinguish between users, while not being personally identifiable to
 the Sempervirens project or its downstream consumers.
 
-Your IP address is also gathered as a part of a standard web server log. However, your 
-IP address is not stored permenantly and is not associated with the UUID on the server.
+Your IP address is also gathered as a part of a standard web server log and 
+as part of a private, Sempervirens-only data set. However, your 
+IP address is not included in the usage statistics that are aggregated and shared
+publicly. The associations between IP addresses and UUIDs are stored privately
+on Sempervirens infrastructure and is never shared publically.
 IP addresses and any other personal information are never part of the telemetry data.
 
 Usage statistics are transmitted using standard and open encryption technologies 
@@ -83,7 +102,7 @@ We will also share information when the law requires it. We follow the law whene
 receive requests about you from a government or related to a lawsuit. We'll notify you 
 when we're asked to hand over your information in this way, unless we're 
 legally prohibited from doing so. Nothing in  this policy is intended to limit any legal 
-defences or objections that you may have to a third party's request to disclose your 
+defenses or objections that you may have to a third party's request to disclose your 
 information.
 
 When we believe it is necessary to prevent harm to you or someone else we may release 
@@ -94,7 +113,12 @@ property or safety of you, our other users, Sempervirens, Numfocus or the public
 How do we store and protect your information?
 -------------------------------------------------
 
-We are committed to never storing personal information. 
+We are committed to never storing uniquely identifying personal information. 
+
+We will store your IP address, which is considered non-uniquely identifying personal 
+information. Non-uniquely identifying personal information will never be publicly 
+shared. Access to such data will be granted only to approved Sempervirens maintainers
+on an as-needed basis.
 
 We are committed to protecting your non-personal information once we have it. 
 We implement physical, business, and technical security measures as needed. 
@@ -104,9 +128,9 @@ can take appropriate protective steps.
 How will we notify you?
 ------------------------
 
-Since no personal information is ever stored, no direct contact with you will ever be 
-initiated. Notifications will be issued via public broadcasts such as via twitter, our 
-website, or our mailing list.
+Since no uniquely identifying personal information is ever stored, no direct contact 
+with you will ever be initiated by us. Notifications will be issued via public 
+broadcasts such as via twitter, our website, or our mailing list.
 
 What else should you know?
 ---------------------------
