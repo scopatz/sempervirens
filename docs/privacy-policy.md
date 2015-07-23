@@ -30,7 +30,9 @@ information" to be personal information.
 
 IP addresses are the only form of personal information that Sempervirens will collect
 about you. IP addresses will be stored as part of a standard web log and non-public 
-dataset. IP addresses will never be shared or displayed publicly.
+dataset. For example, IP addresses may be used internally by Sempervirens for
+server operations, debugging, and other server-side operations.
+IP addresses will never be shared or displayed publicly.
 
 Aggregating and anonymizing IP addresses creates a data set that is deemed 
 non-personal information.
